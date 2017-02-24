@@ -16,12 +16,12 @@ $icon-font-path: '../fonts/';
   padding: 15px 10px;
   background-color: #14a1d6;
   color: #fff;
-  input[type="date"] {
+  input[type="date"],select {
       @include grid-column(5);
       border: none;
       color: #929292;
       font-size: 12px;
-      padding: 7px 3px;
+      padding: 6px 3px;
       background-color: #fff;
   }
   button {
