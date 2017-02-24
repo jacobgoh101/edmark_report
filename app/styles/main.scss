@@ -12,6 +12,22 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
+.datepicker {
+  padding: 15px 10px;
+  background-color: #14a1d6;
+  color: #fff;
+  input[type="date"] {
+      @include grid-column(5);
+      border: none;
+      color: #929292;
+      font-size: 12px;
+      padding: 7px 3px;
+  }
+  button {
+    @include grid-column(2);
+  }
+}
+
 .report {
   .timerange {
     margin: 0;
