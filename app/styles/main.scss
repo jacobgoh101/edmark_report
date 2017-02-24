@@ -16,7 +16,9 @@ $icon-font-path: '../fonts/';
   padding: 15px 10px;
   background-color: #14a1d6;
   color: #fff;
-  input[type="date"],select {
+  margin: 0;
+  input[type="date"],
+  select {
       @include grid-column(5);
       border: none;
       color: #929292;
