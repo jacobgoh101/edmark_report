@@ -28,6 +28,11 @@ $icon-font-path: '../fonts/';
   }
   button {
     @include grid-column(2);
+    width: auto;
+    background-color: #fff;
+    .glyphicon {
+      color: #14a1d6;
+    }
   }
 }
 
